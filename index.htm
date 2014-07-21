@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Link to click which will result in the loading of lightbox -->
+        <a href="javascript: void(0);" id="show-panel">Show Light Box<a>
+
+        <!-- /lightbox-panel-backdrop - /it will load the lightbox contents/ -->
+        <div id="sold-out-lightbox-backdrop"></div>
+
+
+        <!--  lightbox contents - /which will be loaded later on to the lightbox-panel-backdrop/ -->
+        <div id="sold-out-lightbox-panel">
+            <header>
+                <h2>This item is sold out</h2>
+                <!-- <button class="close">×</button> -->
+                <div style="clear:both;"></div>
+            </header>
+
+            <section>
+                <a id="close-panel" href="javascript: void(0)"></a>
+
+                <p>
+                    Unfortunately this item is already sold-out.  <br> 
+                    If you have any question please contact us on our Email <br>
+                    <a class="email" href="mailto: sanjay.khadka@gmail.com">sanjay.khadka@gmail.com</a>
+
+                	Or you can use the box below to type your message for any enquiry if you have.
+                	<textarea name="message" id="message"></textarea>
+                	<button type="button" name="postmessage" id="postmessage">Submit</button>
+                </p>
+            </section>
+        </div>
+
+        <!-- load lightbox calling jquery script -->
+        <script type="text/javascript" src="js/lightbox.js"></script>
+    </body>
+</html>
