@@ -1,0 +1,27 @@
+{
+  "name": "simple-lightbox-jquery",
+  "version": "1.0",
+  "author": "Sanjay Khadka",
+  "description": "Lightbox is small javascript library used to overlay modal box on top of the current page. It's a snap to setup and works on all modern browsers.",
+  "keywords": [
+    "lightbox",
+    "overlay",
+    "image",
+    "modal box",
+    "gallery"
+  ],
+  "homepage": "http://yegya.com/creating-a-simple-light-box-using-jquery/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yegya/simple-lightbox-jquery-tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yegya/simple-lightbox-jquery-tutorial/issues"
+  },
+  "licenses": [
+    {
+      "type": "The MIT License (MIT)",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+}
